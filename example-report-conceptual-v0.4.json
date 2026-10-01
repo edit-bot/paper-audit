@@ -1,0 +1,54 @@
+{
+  "file": "/mnt/data/conceptual_calibration_excerpt.txt",
+  "ai_style_pattern_risk": "Moderate",
+  "authorship_inference": "not performed",
+  "metrics": {
+    "total_sentences": 31,
+    "moderate_findings": 2,
+    "low_findings": 3,
+    "moderate_density": 0.06451612903225806,
+    "low_density": 0.0967741935483871,
+    "contrast_clusters": 0,
+    "metadiscursive_pivots": 14,
+    "metadiscursive_pivot_clusters": 1,
+    "negative_redefinition_pairs": 5,
+    "negative_redefinition_clusters": 1
+  },
+  "findings": [
+    {
+      "rule": "contrast.not_but",
+      "severity": "low",
+      "line": 9,
+      "excerpt": "The distinction developed here concerns not types of assessment, but two different grounds for requiring something to be protected in relation to the same focal activity.",
+      "message": "Contrastive 'not X but Y' structure; usually acceptable in isolation, but review if repeated or rhetorically unnecessary."
+    },
+    {
+      "rule": "contrast.not_but",
+      "severity": "low",
+      "line": 13,
+      "excerpt": "The relevant question is therefore not whether any human input remains, but which activity the student still substantively enacts.",
+      "message": "Contrastive 'not X but Y' structure; usually acceptable in isolation, but review if repeated or rhetorically unnecessary."
+    },
+    {
+      "rule": "contrast.not_but",
+      "severity": "low",
+      "line": 27,
+      "excerpt": "The important requirement is not that every assessment perform every function, but that the programme as a whole is both developmentally sufficient and inferentially sufficient for the capabilities it claims to develop a",
+      "message": "Contrastive 'not X but Y' structure; usually acceptable in isolation, but review if repeated or rhetorically unnecessary."
+    },
+    {
+      "rule": "repetition.metadiscursive_pivot_cluster",
+      "severity": "moderate",
+      "line": 1,
+      "excerpt": "",
+      "message": "Three or more conceptual staging pivots occur within a twelve-sentence window; review whether the distinctions can be stated more directly."
+    },
+    {
+      "rule": "repetition.negative_redefinition_pair",
+      "severity": "moderate",
+      "line": 11,
+      "excerpt": "",
+      "message": "Repeated 'not X. It is Y' style redefinitions occur within a twenty-sentence window; review for conceptual over-staging."
+    }
+  ]
+}

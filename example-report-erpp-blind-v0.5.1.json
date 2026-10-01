@@ -1,0 +1,52 @@
+{
+  "file": "/mnt/data/erpp_submission_markdown.md",
+  "ai_style_pattern_risk": "Low",
+  "authorship_inference": "not performed",
+  "metrics": {
+    "total_sentences": 280,
+    "moderate_findings": 0,
+    "low_findings": 4,
+    "moderate_density": 0.0,
+    "low_density": 0.014285714285714285,
+    "contrast_clusters": 0,
+    "metadiscursive_pivots": 2,
+    "metadiscursive_pivot_clusters": 0,
+    "generic_pivots": 0,
+    "generic_pivot_clusters": 0,
+    "negative_redefinition_pairs": 5,
+    "negative_redefinition_clusters": 0,
+    "short_antithesis_pairs": 0,
+    "short_antithesis_clusters": 0,
+    "exact_repeated_sentences": 0
+  },
+  "findings": [
+    {
+      "rule": "readability.long_sentence",
+      "severity": "low",
+      "line": 13,
+      "excerpt": "Throughout this paper, **grade** is used as the broad English term for an official evaluation recorded by the school. **Formal subject rating** refers more narrowly to the overall subject-level rating, distinguished from",
+      "message": "Long sentence (55 words); review for clause overload, not length alone."
+    },
+    {
+      "rule": "contrast.not_but",
+      "severity": "low",
+      "line": 21,
+      "excerpt": "Its purpose is not to lower academic expectations for students experiencing absence, but to identify how common curricular expectations can be maintained while evidence pathways vary and how responsibility for non-routin",
+      "message": "Contrastive 'not X but Y' structure; usually acceptable in isolation, but review if repeated or rhetorically unnecessary."
+    },
+    {
+      "rule": "readability.long_sentence",
+      "severity": "low",
+      "line": 217,
+      "excerpt": "The framework distinguishes several functions within a non-routine case. **Academic Assessment** remains with the subject teacher. **Academic Moderation**, where needed, provides additional subject-specific scrutiny when",
+      "message": "Long sentence (64 words); review for clause overload, not length alone."
+    },
+    {
+      "rule": "contrast.not_but",
+      "severity": "low",
+      "line": 282,
+      "excerpt": "Its value therefore lies not in documentation for its own sake but in making consequential non-routine judgement recoverable.",
+      "message": "Contrastive 'not X but Y' structure; usually acceptable in isolation, but review if repeated or rhetorically unnecessary."
+    }
+  ]
+}

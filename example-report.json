@@ -1,0 +1,35 @@
+{
+  "file": "/mnt/data/PaperAudit/examples/before-after.md",
+  "ai_style_pattern_risk": "High",
+  "authorship_inference": "not performed",
+  "findings": [
+    {
+      "rule": "pivot.generic",
+      "severity": "moderate",
+      "line": 9,
+      "excerpt": "This highlights a broader transformation in the boundaries of schooling.",
+      "message": "Generic significance pivot; keep if it introduces a specific analytical claim."
+    },
+    {
+      "rule": "contrast.not_but",
+      "severity": "moderate",
+      "line": 44,
+      "excerpt": "> The issue is not access but continuity.",
+      "message": "Contrastive 'not X but Y' structure; review if repeated or rhetorically unnecessary."
+    },
+    {
+      "rule": "contrast.not_but",
+      "severity": "moderate",
+      "line": 44,
+      "excerpt": "The problem is not provision but responsibility.",
+      "message": "Contrastive 'not X but Y' structure; review if repeated or rhetorically unnecessary."
+    },
+    {
+      "rule": "contrast.not_but",
+      "severity": "moderate",
+      "line": 44,
+      "excerpt": "The key question is not whether alternatives exist but whether pathways remain connected.",
+      "message": "Contrastive 'not X but Y' structure; review if repeated or rhetorically unnecessary."
+    }
+  ]
+}

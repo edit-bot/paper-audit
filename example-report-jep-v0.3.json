@@ -1,0 +1,78 @@
+{
+  "file": "/mnt/data/jep_manuscript.txt",
+  "ai_style_pattern_risk": "Moderate",
+  "authorship_inference": "not performed",
+  "metrics": {
+    "total_sentences": 611,
+    "moderate_findings": 1,
+    "low_findings": 8,
+    "moderate_density": 0.0016366612111292963,
+    "low_density": 0.01309328968903437,
+    "contrast_clusters": 1
+  },
+  "findings": [
+    {
+      "rule": "relevance.beyond",
+      "severity": "low",
+      "line": 10,
+      "excerpt": "This pattern has relevance beyond Japan for education systems expanding alternative, online, home-based, or external provision.",
+      "message": "Beyond-case relevance claim; retain only when the wider relevance is specified rather than asserted."
+    },
+    {
+      "rule": "contrast.not_but",
+      "severity": "low",
+      "line": 52,
+      "excerpt": "The analytical objective is not thematic coding in itself, but comparison of each policy change with the institutional architecture immediately preceding it.",
+      "message": "Contrastive 'not X but Y' structure; usually acceptable in isolation, but review if repeated or rhetorically unnecessary."
+    },
+    {
+      "rule": "readability.long_sentence",
+      "severity": "low",
+      "line": 114,
+      "excerpt": "These concerned national and local governmental formulation and implementation of policies securing educational opportunities; information sharing and organised, continuous support; development of schools providing speci",
+      "message": "Long sentence (50 words); review for clause overload, not length alone."
+    },
+    {
+      "rule": "pivot.evidence_summary",
+      "severity": "low",
+      "line": 172,
+      "excerpt": "This finding demonstrates the limits of using gradual institutional change as a label for an entire reform period.",
+      "message": "Evidence-summary pivot; keep when the following claim is study-specific, but review repeated formulaic use."
+    },
+    {
+      "rule": "pivot.evidence_summary",
+      "severity": "low",
+      "line": 174,
+      "excerpt": "This sequence demonstrates the need to distinguish reformulation of policy language from formal institutional change.",
+      "message": "Evidence-summary pivot; keep when the following claim is study-specific, but review repeated formulaic use."
+    },
+    {
+      "rule": "contrast.not_but",
+      "severity": "low",
+      "line": 184,
+      "excerpt": "Tracking these recurring connection points makes it possible to identify not only what changed, but also how retained arrangements continued to structure the incorporation of new forms of learning.",
+      "message": "Contrastive 'not X but Y' structure; usually acceptable in isolation, but review if repeated or rhetorically unnecessary."
+    },
+    {
+      "rule": "contrast.not_but",
+      "severity": "low",
+      "line": 185,
+      "excerpt": "The contribution is therefore not to add another mode of institutional change, but to extend analytical attention to the retained arrangements through which successive reforms are incorporated into formal institutions.",
+      "message": "Contrastive 'not X but Y' structure; usually acceptable in isolation, but review if repeated or rhetorically unnecessary."
+    },
+    {
+      "rule": "contrast.not_but",
+      "severity": "low",
+      "line": 186,
+      "excerpt": "In Japan, the enrolled-school relationship, curriculum linkage, attendance decisions, assessment, and school records persisted not merely as unchanged residues but as formal channels repeatedly used to institutionalise n",
+      "message": "Contrastive 'not X but Y' structure; usually acceptable in isolation, but review if repeated or rhetorically unnecessary."
+    },
+    {
+      "rule": "repetition.contrast_cluster",
+      "severity": "moderate",
+      "line": 184,
+      "excerpt": "",
+      "message": "Three contrastive 'not X but Y' structures occur within a six-sentence window; review the cluster for over-engineered symmetry."
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "file": "calibration/pfe_function_responsibility.md",
+  "ai_style_pattern_risk": "Moderate",
+  "authorship_inference": "not performed",
+  "metrics": {
+    "total_sentences": 409,
+    "moderate_findings": 2,
+    "low_findings": 12,
+    "moderate_density": 0.004889975550122249,
+    "low_density": 0.029339853300733496,
+    "contrast_clusters": 0,
+    "metadiscursive_pivots": 7,
+    "metadiscursive_pivot_clusters": 0,
+    "generic_pivots": 3,
+    "generic_pivot_clusters": 0,
+    "negative_redefinition_pairs": 13,
+    "negative_redefinition_clusters": 1,
+    "short_antithesis_pairs": 19,
+    "short_antithesis_clusters": 1,
+    "exact_repeated_sentences": 5
+  },
+  "findings": [
+    {
+      "rule": "contrast.not_but",
+      "severity": "low",
+      "line": 193,
+      "excerpt": "Or parents may be responsible not only for choosing, but also for discovering services, creating contact, transferring information and repairing failed connections.",
+      "message": "Contrastive 'not X but Y' structure; usually acceptable in isolation, but review if repeated or rhetorically unnecessary."
+    },
+    {
+      "rule": "pivot.generic",
+      "severity": "low",
+      "line": 211,
+      "excerpt": "What matters is whether each necessary function remains linked to responsibility until the function is secured or responsibility is taken up elsewhere.",
+      "message": "Generic significance pivot; usually acceptable in isolation, but review repeated or weakly grounded use."
+    },
+    {
+      "rule": "pivot.generic",
+      "severity": "low",
+      "line": 279,
+      "excerpt": "What matters is that responsibility does not disappear before the relevant function is in place.",
+      "message": "Generic significance pivot; usually acceptable in isolation, but review repeated or weakly grounded use."
+    },
+    {
+      "rule": "pivot.short_standalone",
+      "severity": "low",
+      "line": 365,
+      "excerpt": "The issue is whether the line remains intact between them.",
+      "message": "Short standalone conceptual pivot; keep if it carries necessary analysis rather than rhetorical staging."
+    },
+    {
+      "rule": "pivot.short_standalone",
+      "severity": "low",
+      "line": 385,
+      "excerpt": "But visibility is not the same as connection.",
+      "message": "Short standalone conceptual pivot; keep if it carries necessary analysis rather than rhetorical staging."
+    },
+    {
+      "rule": "pivot.generic",
+      "severity": "low",
+      "line": 429,
+      "excerpt": "What matters is whether something necessary for the learner’s next stage actually reaches an actor able to take it up.",
+      "message": "Generic significance pivot; usually acceptable in isolation, but review repeated or weakly grounded use."
+    },
+    {
+      "rule": "signpost.emphasis",
+      "severity": "low",
+      "line": 449,
+      "excerpt": "More importantly for this paper, the organisational boundary does not necessarily sever the pathway.",
+      "message": "Emphasis signpost; review if the claim can carry its own emphasis."
+    },
+    {
+      "rule": "repetition.negative_redefinition_pair",
+      "severity": "moderate",
+      "line": 63,
+      "excerpt": "The emphasis is therefore not simply on who performs an activity. | It is on whether responsibility ends before the function it is meant to secure has actually been carried  || The argument is not that these activities should disappear. | The question is whether the family participates within a pathway whose necessary connections remain insti",
+      "message": "Repeated 'not X. It is Y' style redefinitions occur within a twenty-sentence window; review for conceptual over-staging."
+    },
+    {
+      "rule": "repetition.short_antithesis_pairs",
+      "severity": "moderate",
+      "line": 21,
+      "excerpt": "The family may even receive information about these possibilities. | Yet someone still has to make the pathway work. || The services exist. | What may be missing is a continuous institutional connection between them. || Information has been provided. | But has the learner been connected to support?",
+      "message": "19 compact contrastive sentence pairs were detected; review whether repeated aphoristic staging is carrying more emphasis than analysis."
+    },
+    {
+      "rule": "repetition.exact_sentence",
+      "severity": "low",
+      "line": 83,
+      "excerpt": "Families necessarily participate in education.",
+      "message": "Exact sentence appears 2 times; repetition may be intentional, but review whether every recurrence adds value."
+    },
+    {
+      "rule": "repetition.exact_sentence",
+      "severity": "low",
+      "line": 89,
+      "excerpt": "**If the family stopped doing this, who would keep the connection alive?**",
+      "message": "Exact sentence appears 3 times; repetition may be intentional, but review whether every recurrence adds value."
+    },
+    {
+      "rule": "repetition.exact_sentence",
+      "severity": "low",
+      "line": 117,
+      "excerpt": "**Families may participate in educational pathways without being required to hold those pathways together.**",
+      "message": "Exact sentence appears 3 times; repetition may be intentional, but review whether every recurrence adds value."
+    },
+    {
+      "rule": "repetition.exact_sentence",
+      "severity": "low",
+      "line": 247,
+      "excerpt": "**What must happen next?**",
+      "message": "Exact sentence appears 2 times; repetition may be intentional, but review whether every recurrence adds value."
+    },
+    {
+      "rule": "repetition.exact_sentence",
+      "severity": "low",
+      "line": 609,
+      "excerpt": "Flexibility should therefore distribute provision without fragmenting responsibility.",
+      "message": "Exact sentence appears 2 times; repetition may be intentional, but review whether every recurrence adds value."
+    }
+  ]
+}
